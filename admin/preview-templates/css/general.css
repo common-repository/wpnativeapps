@@ -1,0 +1,150 @@
+/* GENERAL */
+
+body {
+    margin:0;
+    padding:0;
+}
+
+/* TEXT */
+
+.w2a-center {
+    text-align:center;
+}
+
+/* GENERAL RESPONSIVE */
+
+@media (max-width:768px) {
+    .w2a-desktop-only {
+        display:none !important;
+    }
+}
+
+@media (min-width:768px) {
+    .w2a-mobile-only {
+        display:none !important;
+    }
+}
+
+.w2a-hide {
+    display:none;
+}
+
+/* Centerd Content CSS For All Pages */
+
+.w2a-centered-content {
+    width:100%;
+    max-width:1366px;
+    margin:0 auto;
+    display:block;
+
+}
+
+@media (max-width:1366px) {
+    .w2a-centered-content {
+        padding:0px 50px;
+    }
+}
+
+@media (max-width:1166px) {
+    .w2a-centered-content {
+        padding:0px 30px;
+    }
+}
+
+@media (max-width:1000px) {
+    .w2a-centered-content {
+        padding:0px 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .w2a-centered-content {
+        padding:0px 15px;
+    }
+}
+
+/* Centered Cards */
+
+.w2a-center1000 {
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.w2a-center900 {
+    max-width:900px;
+    margin:0 auto;
+}
+
+.w2a-center800 {
+    max-width:800px;
+    margin:0 auto;
+}
+
+.w2a-center700 {
+    max-width:700px;
+    margin:0 auto;
+}
+
+.w2a-center600 {
+    max-width:600px;
+    margin:0 auto;
+}
+
+.w2a-center500 {
+    max-width:600px;
+    margin:0 auto;
+}
+
+.w2a-center400 {
+    max-width:400px;
+    margin:0 auto;
+}
+
+
+/* Flex Display Classes */
+
+.w2a-flex-row {
+    display:flex;
+    flex-direction: row;
+}
+
+.w2a-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.w2a-jcc {
+    justify-content: center;
+}
+
+.w2a-aic {
+    align-items: center;
+}
+
+.w2a-ais {
+    align-items: start;
+}
+
+.w2a-jcsb {
+    justify-content: space-between;
+}
+
+.w2a-jcsa {
+    justify-content: space-around;
+}
+
+.w2a-flex-grow {
+    flex-grow:1;
+}
+
+.w2a-g5 {
+    gap:5px;
+}
+
+.w2a-g10 {
+    gap:10px;
+}
+
+.w2a-g20 {
+    gap:20px;
+}

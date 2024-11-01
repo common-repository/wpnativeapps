@@ -1,0 +1,38 @@
+<!----
+
+Replace [[ABSOLUTE_URL_PATH]]
+
+Replace [[LOGO_POSITION]] with either:
+- logo-left
+- logo-center
+- logo-right
+
+Replace [[LOGO_URL]] with logo url
+
+Replace [[BACKGROUND_COLOUR]] with hex or RGBA color code
+
+Replace [[PAGE_TITLE]] with text
+
+Replace [[LOGO_OR_TEXT]] with either:
+-   show-logo
+-   show-text
+
+Replace [[TEXT_COLOUR]] with hex or rgba colour code
+
+-->
+<link rel="stylesheet" href="[[ABSOLUTE_URL_PATH]]preview-templates/css/general.css?ver=[[VERSION_NUMBER]]">
+<link rel="stylesheet" href="[[ABSOLUTE_URL_PATH]]preview-templates/css/appGlobal.css?ver=[[VERSION_NUMBER]]">
+<link rel="stylesheet" href="[[ABSOLUTE_URL_PATH]]preview-templates/css/top-nav-logo-middle-nav-both.css?ver=[[VERSION_NUMBER]]">
+<div style="background-color:[[BACKGROUND_COLOUR]];" class='w2a-flex-row w2a-top-nav w2a-flex-even w2a-jcsb w2a-aic w2a-[[LOGO_OR_TEXT]]'>
+    <div class="w2a-flex-row">
+        <img class="w2a-top-menu-icon w2a-[[MENU_ITEM_1]]" src="[[MENU_ITEM_1_ICON_URL]]" />
+    </div>
+    <div class="w2a-flex-row">
+        <img class="w2a-logo" src="[[LOGO_URL]]" />
+        <h1 style='color:[[TEXT_COLOUR]];' class='w2a-title'>[[PAGE_TITLE]]</h1>    
+    </div>
+    <div class='w2a-flex-row w2a-g10 w2a-aic'>
+        <img class="w2a-top-menu-icon w2a-[[MENU_ITEM_2]]" src="[[MENU_ITEM_2_ICON_URL]]" />
+        <img class="w2a-top-menu-icon w2a-[[MENU_ITEM_3]]" src="[[MENU_ITEM_3_ICON_URL]]" />
+    </div>
+</div>

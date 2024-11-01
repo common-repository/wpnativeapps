@@ -1,0 +1,59 @@
+#website2AppPublish{
+  margin: 0 auto;
+  width: 550px;
+  display: block;
+  max-width: 100%;
+}
+
+
+#billing {
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+    max-width: 100%;
+}
+
+#billing input, #billing select {
+    width:100%;
+}
+
+#subscription {
+    margin: 0 auto;
+    width: 400px;
+    display: block;
+    max-width: 100%;   
+    background-color:#fff;
+    padding:40px 50px;
+}
+
+#subscription .cancel-link {
+    color:#CB1818;
+    display:block;
+    text-decoration:none;
+}
+
+#subscription .bill-label {
+    opacity:0.5;
+    margin-right:5px;
+}
+
+#subscription .support-link {
+    display:block;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+
+#subscription h2 {
+    font-size:44px;
+    text-align:center;
+    line-height:38px;
+    margin-top:0px;
+    margin-bottom:0px;
+    display:block;
+}
+
+#subscription .currency {
+    font-size:13px;
+    margin-left:3px;
+}

@@ -1,0 +1,53 @@
+<div class="iFrameWindow" onclick="closeiFrameWindow(event);">
+    <div class='iFrameContainer'>
+        <div class='iFrameTitle'>
+            <button type="button" class="iFrameCloseButton" onclick="closeiFrameWindow(event);">
+                <span class="screen-reader-text">Close</span>
+            </button>
+        </div>
+        <div class='iFrame_Half_Container'>
+            <h3 class='iFrame_Half_ContainerH3'>Select the footer section on your website.</h3>
+            <h5 class='iFrame_Half_ContainerH5'>It will be replaced in your app with native app navigation that's faster & easier for your customers to use.</h5>
+            <p class='iFrame_Half_ContainerP'>Use your mouse to hover over elements in the phone frame of this popup window. When your website's footer is outlined with a red line, click it. You'll see a code appear below. It's the name of the element you clicked. Use the “Apply” button to see what it your app would look like without that element.</p>
+            <select class='elementSelection' disabled="disabled">
+                <option value='Footer'>Footer</option>
+            </select>
+            <textarea class='selectionSelectorString'></textarea>
+            <div class='iFrame_SelectorTools_Container'>
+                <button class='selectionSelectorPrev' onclick="selectPrev('footer_selection_iframe', 'footer');">
+                    Prev
+                </button>
+                <button class='selectionSelectorNext' onclick="selectNext('footer_selection_iframe', 'footer');">
+                    Next
+                </button>
+                <button class='selectionSelectorChild' onclick="selectChild('footer_selection_iframe', 'footer');">
+                    Child
+                </button>
+                <button class='selectionSelectorParent' onclick="selectParent('footer_selection_iframe', 'footer');">
+                    Parent
+                </button>
+            </div>
+            <button class='selectionApplyButton' data_toggle="off" onclick="toggleSelectedElement('footer_selection_iframe', 'footer');">
+                Apply
+            </button>
+            <button class='selectionDoneButton' onclick="doneSelection('footer');">Done</button>
+        </div>
+        <div class='iFrame_Half_Container' style="margin-top:40px;padding:3% !important;width:44% !important;">
+            <div class='iFrame_Phone_Container'>
+                <iframe class='iFramePopoverElement' hspace="0" allowtransparency="true" src="[[URL]]" id="[[ID]]" frameborder="0">
+                    This feature requires inline frames. You have iframes disabled or your browser does not support them.
+                </iframe>
+                <div class="iFrameiPhoneFrame"></div>
+                <div class="iFrameNavigationWindow">
+                    <button type="button" class="iFrameBackButton">
+                        <span class="screen-reader-text">Back</span>
+                    </button>
+                    <div class="iFrameURL">[[DISPLAY_URL]] <div class='iFrameEditURLButton' onclick="changeiFrameURL();"></div></div>
+                    <button type="button" class="iFrameForwardButton">
+                        <span class="screen-reader-text">Forward</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

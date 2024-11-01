@@ -1,0 +1,51 @@
+.w2a-logo-left {
+    justify-content: start;
+    padding-left:20px;
+}
+
+.w2a-logo-right {
+    justify-content: end;
+    padding-right:20px;
+}
+
+.w2a-logo-middle {
+    justify-content: center;
+}
+
+.w2a-logo {
+    width:auto;
+    height:auto;
+    max-height:30px;
+    max-width:180px;
+}
+
+.w2a-top-nav {
+    height:50px;
+    padding:0px 20px;
+}
+
+.w2a-top-nav.w2a-show-logo .w2a-title {
+    display:none;
+}
+
+.w2a-top-nav.w2a-show-text .w2a-logo {
+    display:none;
+}
+
+.w2a-title {
+    font-size:18px !important;
+    font-weight:700 !important;
+    margin:0;
+}
+
+.w2a-top-menu-icon {
+    height:auto;
+    width:auto;
+    max-width:18px;
+    max-height:18px;
+    display:none;
+}
+
+.w2a-top-menu-icon.w2a-active {
+    display:block;
+}

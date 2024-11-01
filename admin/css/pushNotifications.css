@@ -1,0 +1,102 @@
+.send-form-parent {
+    margin: 0 auto;
+    width: 600px;
+    display: block;
+    max-width: 100%;
+}
+
+#send input, #send select {
+    width:100%;
+    margin-top:10px;
+}
+
+#send h3 {
+    margin-top:25px;
+}
+
+#send-push-button {
+    background-color: #2270B1;
+    color: #fff;
+    text-decoration: none;
+    /* padding: 15px 0px; */
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top:30px;
+}
+
+#example-push {
+    position:fixed;
+    right:80px;
+    top:280px;
+    width:340px;
+    height:auto;
+}
+
+@media (max-width:1200px) {
+    #example-push {
+        right:50px;
+        width:300px;
+    }
+}
+
+@media (max-width:1000px) {
+    #example-push {
+        right:20px;
+        width:280px;
+    }
+}
+
+
+#subscriptionGroup {
+    width:1366px;
+    max-width:100%;
+    margin:0 auto;
+    display:block;
+}
+
+#subscriptionGroup h2 {
+    font-size:24px;
+    margin-bottom:20px;
+    font-weight:400;
+}
+
+.sg-create {
+    width:30%;
+}
+
+.sg-table {
+    width:70%;
+}
+
+.sg-row {
+    gap:50px;
+}
+
+.sg-create h3 {
+    margin-top:20px;
+}
+
+.w2a-logo {
+    width:240px;
+    height:auto;
+    display:block;
+    margin-top:50px;
+    margin-left:30px;
+}
+
+#pushNotifications h1.page-header {
+    font-size:36px;
+    line-height:44px;
+    display:block;
+    margin-left:30px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+#pushNotifications h1.inner-page-header {
+    font-size:30px;
+    display:block;
+    margin-top:30px;
+    line-height:38px;
+}

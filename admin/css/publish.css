@@ -1,0 +1,77 @@
+#website2AppPublish{
+  margin: 0 auto;
+  width: 550px;
+  display: block;
+  max-width: 100%;
+}
+
+#website2AppPublish .w2a-logo {
+    width:240px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+
+#website2AppPublish h2 {
+    font-size:30px;
+    text-align:center;
+    line-height:38px;
+    margin-top:30px;
+    margin-bottom:10px;
+    display:block;
+}
+
+#website2AppPublish p {
+    text-align:center;
+}
+
+#website2AppPublish p a {
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+#website2AppPublish #processing, #website2AppPublish #publish {
+    background-color:#fff;
+    padding:40px 50px;
+    margin:0 auto;
+    width:440px;
+    max-width:100%;
+    display:block;
+    margin-top:50px;
+}
+
+#website2AppPublish .processing-graphic {
+    width:300px;
+    max-width:80%;
+    margin:0 auto;
+    display:block;
+    margin-top:20px;
+}
+
+#publish .publish-pay {
+    background-color:#2270B1;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 0px;
+    width:100%;
+    display:block;
+    text-align:center;
+}
+
+.price-parent {
+    background-color:#EEEEEE;
+    padding:20px 50px;
+    margin-top:30px;
+}
+
+.price-parent h1 {
+    margin-top:0px;
+    font-size:30px;
+}
+
+.price-parent h1 span {
+    font-size:13px;
+    margin-left:2px;
+}
+
+

@@ -1,0 +1,48 @@
+.introduction-parent {
+    margin:0 auto;
+    width:550px;
+    display:block;
+    max-width:100%;
+}
+
+.get-started {
+    padding:15px 25px;
+    background-color:#2271b1;
+    width:100%;
+    color:#fff;
+    text-decoration:none;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.get-started:hover {
+    color:#fff;
+}
+
+.introduction-parent p, .introduction-parent h1, .introduction-parent h2, .introduction-parent h3, .introduction-parent h4, .introduction-parent h5, .introduction-parent h6 {
+    padding-left:0px;
+}
+
+.introduction-parent h1, .introduction-parent h2, .introduction-parent h3, .introduction-parent h4, .introduction-parent h5, .introduction-parent h6 {
+    margin-top:10px;
+}
+
+.introduction-parent h1, .introduction-parent h2 {
+    font-weight:600;
+}
+
+.introduction-parent h1 {
+    margin-top:20px;
+    font-size:30px;
+}
+
+.introduction-parent h2 {
+    font-size:24px;
+}
+
+.introduction-video {
+    margin-top:20px;
+}

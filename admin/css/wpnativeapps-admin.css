@@ -1,0 +1,1009 @@
+.wp-menu-image img{
+    height: 20px;
+  }
+.flex-column{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+.flex-row{
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+
+}
+  
+  #wpnativeapps-admin div#wpna_settings_tabs {
+    background-color: #ececec;
+}
+
+#wpnativeapps-admin #app_preview iframe {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+#wpnativeapps-admin #wpnaSettingsForm .wp-picker-container .hidden {
+    /* display: inline-block; */
+}
+
+#wpnativeapps-admin section{
+    max-width:100%;
+}
+#wpnativeapps-admin .wpna_settings_page_left{
+  /* width: 60%
+  padding: 20px 5% */
+  border-right: 1.5px solid #D5D5D5;
+  padding: 50px 20px;
+  width:60%;
+  /* flex:2; */
+}
+#wpnativeapps-admin .wpna_settings_page_right{
+  padding: 10px;
+  /* flex:1; */
+  width:40%;
+}
+
+@media (max-width:1150px) {
+    #wpnativeapps-admin .wpna_settings_page_right {
+        width:30%;
+    }
+    #wpnativeapps-admin .wpna_settings_page_left{
+        width:70%;
+    }
+
+}
+
+#wpnativeapps-admin .wpna_settings_page_wrap.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#wpnativeapps-admin .sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+#wpnativeapps-admin .wp-color-result-text{
+    padding: 5px 10px;
+    width: 100px;
+    text-align: left;
+}
+
+#wpnativeapps-admin .wp-picker-container .wp-color-result.button{
+    padding: 0 0 0 40px;
+}
+
+#wpnativeapps-admin .wp-picker-container .color-alpha{
+    width: 40px !important;
+}
+
+#wpnativeapps-admin input:not([type='radio']){
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    min-height: 44px;
+}
+
+#wpnativeapps-admin select{
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    min-height: 44px;
+}
+
+#wpnativeapps-admin span.select2-selection.select2-selection--multiple{
+    min-height: 44px;
+    padding: 0.5em;
+}
+#wpnativeapps-admin textarea:not('.select2-search__field'){
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    min-width: 80px;
+}
+#wpnativeapps-admin .select2-container{
+    min-width: 320px;
+}
+
+
+#wpnativeapps-admin .radioInputs{
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+#wpnativeapps-admin .radioInputs fieldset label{
+    margin-right: 25px;
+}
+
+#wpnativeapps-admin h3{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    line-height: 24px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+#wpnativeapps-admin h2{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    line-height: 24px;
+    margin: 0;
+}
+
+#wpnativeapps-admin h4{
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+#wpnativeapps-admin p{
+    margin: 0;
+    padding-left: 10px;
+}
+
+#wpnativeapps-admin .iconPickerSection{
+    align-items: center;
+}
+
+#wpnativeapps-admin .iconPickerSection p {
+    margin-right: 15px;
+}
+
+#wpnativeapps-admin .iconPickerSection .wpnaImageUploadSection{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#wpnativeapps-admin .iconPickerSection .wpnaImageUploadPreview{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#wpnativeapps-admin .iconPickerSection .pushNoti_backgroundImage_remove{
+    padding: 5px 20px;
+}
+
+#wpnativeapps-admin .iconPickerSectionVertical{
+    align-items: start;
+    flex-direction: column;
+}
+
+#wpnativeapps-admin .iconPickerSectionVertical .wpnaImageUploadSection{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#wpnativeapps-admin .iconPickerSectionVertical .wpnaImageUploadPreview{
+    width: 100px;
+    height: 150px;
+    margin-left: 15px;
+    object-fit: contain;
+}
+
+#wpnativeapps-admin .iconPickerSectionVertical .pushNoti_backgroundImage_remove{
+    padding: 5px 20px;
+}
+
+#wpnativeapps-admin .iconPickerSection.reversePicker > div{
+    flex-direction: row;
+}
+
+/*
+================================================================================
+============================ CSS FOR BANNERS STARTS=============================
+*/
+
+#wpnativeapps-admin .wp-core-ui .notice.is-dismissible{
+    padding: 0;
+}
+
+#wpnativeapps-admin .notice{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#wpnativeapps-admin .notice:last-child{
+    margin-bottom: 30px;
+}
+
+
+#wpnativeapps-admin .notice .pluginIcon{
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#wpnativeapps-admin .notice-info .pluginIcon{
+    background-color: #F4F9FA;
+}
+
+#wpnativeapps-admin .notice-success .pluginIcon{
+    background-color: #F4F9FA;
+}
+
+#wpnativeapps-admin .notice-error .pluginIcon{
+    background-color: #FEF0F2;
+}
+
+#wpnativeapps-admin .notice .pluginIcon .wpnaNoticeIcon{
+    width: 22px;
+}
+
+#wpnativeapps-admin .notice .bannerContent{
+    width: 80%;
+}
+
+#wpnativeapps-admin .notice .bannerContent h1{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    line-height: 24px;
+}
+
+#wpnativeapps-admin .notice .bannerContent p{
+   font-size: 13px;
+   letter-spacing: -0.43px;
+   line-height: 20px;
+}
+
+
+/*
+==============================CSS FOR BANNERS ENDS==============================
+================================================================================
+*/
+
+/*
+================================================================================
+============================ CSS FOR AUTHENTICATION STARTS======================
+*/
+
+
+#wpnativeapps-admin .signin-signup-page-choose{
+    margin-bottom: 30px;
+}
+
+#wpnativeapps-admin .signin-signup-page-choose .authenticationPage{
+    width: 100%;
+}
+
+
+/*
+==============================CSS FOR AUTHENTICATION ENDS=======================
+================================================================================
+*/
+
+/*
+================================================================================
+============================ CSS FOR GENERAL STARTS=============================
+*/
+
+#wpnativeapps-admin .general_hideElements h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#wpnativeapps-admin .general_hideElements .textcontent{
+    margin-bottom: 30px;
+}
+
+#wpnativeapps-admin .choose_button_with_icon a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #2270B1;
+    font-weight: 500;
+}
+
+#wpnativeapps-admin .selectorInputs > div{
+    align-items: center;
+}
+
+#wpnativeapps-admin .selectorInputs input{
+    margin-right: 10px;
+}
+
+#wpnativeapps-admin .addAnotherHideEl{
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 17px;
+}
+
+#wpnativeapps-admin .splashScreenSection, .topBarNavSection{
+    margin-top: 50px;
+}
+
+#wpnativeapps-admin .splashScreenSection h2{
+    margin-bottom: 5px;
+}
+
+#wpnativeapps-admin .splashScreenSection ul{
+    list-style: disc;
+    margin-left: 25px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/*
+==============================CSS FOR GENERAL ENDS==============================
+================================================================================
+*/
+
+/*
+================================================================================
+============================ CSS FOR PROMPTS STARTS=============================
+*/
+
+#wpnativeapps-admin .propmt-tab-section{
+    margin-top: 50px;
+}
+
+#wpnativeapps-admin .promptScreenPreview{
+    width: 150px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#wpnativeapps-admin .propmt-tab-section .leftColumnContent{
+    width: 90%;
+}
+
+#wpnativeapps-admin .propmt-tab-section .previewSplash{
+    width: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#wpnativeapps-admin .propmt-tab-section input{
+    width: 100%;
+}
+
+#wpnativeapps-admin .propmt-tab-section input[type='radio']{
+    width: auto;
+}
+
+#wpnativeapps-admin .propmt-tab-section textarea{
+    width: 100%;
+    resize: none;
+}
+
+#wpnativeapps-admin .propmtTextSections textarea{
+    padding: 12px 10px;
+}
+
+#wpnativeapps-admin .prompt_tracking{
+    margin-top: 50px;
+}
+
+#wpnativeapps-admin .propmt-tab-section h3.promptHeadingWithin{
+    margin-top: 30px;
+}
+
+/*
+==============================CSS FOR PROMPTS ENDS==============================
+================================================================================
+*/
+
+/*
+================================================================================
+============================ CSS FOR Tabs STARTS================================
+*/
+#wpnativeapps-admin .tab-content.inactive{
+  display: none;
+}
+
+#wpnativeapps-admin #TB_iframeContent #wpadminbar{
+  display: none;
+}
+#wpnativeapps-admin #general > .flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+flex-direction: column;
+min-height: 66vh;
+justify-content: flex-start;
+margin: 20px 0;
+}
+#wpnativeapps-admin #general .flex-wrap > .flex-item{
+  margin:1em 0;
+
+}
+#wpnativeapps-admin .general_app_col1, .general_hide_header_col1, .general_topbar_navigation_section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#wpnativeapps-admin .section_heading {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin:15px 0;
+}
+#wpnativeapps-admin label.inputLabel{
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#wpnativeapps-admin .itemSelectorWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wpnativeapps-admin .choose_button_with_icon {
+    cursor: pointer;
+    border: 1px solid;
+    height: 2em;
+    padding: 5px 10px;
+    color: #72aee6;
+    background: transparent;
+    border-color: #72aee6;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: 500;
+}
+#wpnativeapps-admin .arrow_north:after {
+    content: '\2197';
+}
+#wpnativeapps-admin .itemSelectorWrap.topbar_backgroundColorSection {
+    justify-content: space-between;
+    max-width: 270px;
+    flex-wrap: wrap;
+}
+#wpnativeapps-admin .topbar_backgroundColorSection{
+  min-height: 100px;
+}
+#wpnativeapps-admin .topbar_statusbar_textColor {
+  /* min-height: 250px; */
+}
+
+#wpnativeapps-admin .topbar_bannerLogo .wpnaImageUploadPreview {
+    border: 1px solid #ececec;
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 0;
+}
+#wpnativeapps-admin .wpnaImageUploadPreview {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+
+/* Iframe to choose elements to hide (header,footer and other)*/
+#wpnativeapps-admin iframe.test #wpadminbar{
+  display: none;
+}
+
+/*
+================================================================================
+============================ CSS FOR Tabs ENDS==================================
+*/
+
+/*
+================================================================================
+============================ CSS FOR iFrame BEGINS==================================
+*/
+
+/*
+================================================================================
+============================ CSS FOR iFrame ENDS ==================================
+*/
+
+#wpnativeapps-admin .splash_screen_backgroundImage_preview{
+  height: 400px;
+  width: 220px;
+}
+#wpnativeapps-admin .splash_screen_backgroundLogo_preview{
+  height: 250px;
+  width: 250px;
+}
+#wpnativeapps-admin section.splashScreenSection{
+    width: 50%;
+    align-items: center;
+}
+#wpnativeapps-admin .w50p{
+  width: 50%;
+}
+#wpnativeapps-admin .w60p{
+  width:60%;
+}
+#wpnativeapps-admin .w40p{
+  width:40%;
+}
+#wpnativeapps-admin span.wpnaicon{
+  background:transparent url("../images/WPNativeApps-Icon.png") center center no-repeat;
+}
+#wpnativeapps-admin img.wpnaNoticeIcon{
+  width: 40px;
+  height: auto;
+}
+#wpnativeapps-admin .ai-fs, .aifs{
+  align-items: flex-start;
+}
+#wpnativeapps-admin .jc-se{
+  justify-content:space-evenly;
+}
+#wpnativeapps-admin .jc-fx{
+  justify-content: flex-start;
+}
+#wpnativeapps-admin .jc-sb {
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#wpnativeapps-admin .flex-column.generalSettings {
+    justify-content: space-between;
+    height: 1980px;
+    min-height: 100vh;
+    align-items: flex-start;
+    padding: 0 25px;
+}
+#wpnativeapps-admin .topbarnav-previewsection {
+  /* min-height: 300px; */
+}
+#wpnativeapps-admin .wpna_settings_page_right h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#wpnativeapps-admin .topbarnav-previewsection .previewImages{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 100px;
+  width: 85%;
+}
+#wpnativeapps-admin .width250{
+  width: 250px;
+}
+#wpnativeapps-admin .topbar_bannerLogo{
+  height: 300px;
+}
+#wpnativeapps-admin .ai-c {
+    align-items: center;
+}
+#wpnativeapps-admin .height150{
+  height: 150px;
+}
+#wpnativeapps-admin .bannerLogoUploadWrap .wpna_bannerLogo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+#wpnativeapps-admin .wpna_bannerLogo_section{
+  display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+/*
+#wpnativeapps-admin .h1{
+  font-size: 22px;
+  font-weight: bold;
+}
+#wpnativeapps-admin .h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+#wpnativeapps-admin .h3{
+  font-size: 14px;
+  font-weight: bold;
+} */
+
+#wpnativeapps-admin .navStructureVisual img {
+    max-width: 320px;
+}
+#wpnativeapps-admin .topNavPageSettings .wpnaImageUploadPreview {
+    height: 40px;
+    width: 40px;
+}
+#wpnativeapps-admin .topNavOptionsParent {
+    min-height: 500px;
+}
+#wpnativeapps-admin .settingParent {
+    padding: 20px 0;
+}
+
+#wpnativeapps-admin .hide{
+  display: none;
+}
+
+
+#wpnativeapps-admin #wpna_settings_tabs .ui-tabs-nav{
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding-left: 50px;
+    padding-right: 0;
+    border-bottom: 1.5px solid #979797 /*D5D5D5*/;
+    border-radius: 0;
+    line-height: inherit;
+}
+
+#wpnativeapps-admin #wpna_settings_tabs ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.53px;
+    text-align: center;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+#wpnativeapps-admin .ui-button{
+    background: #DCDCDE;
+    border: 1px solid #979797;
+}
+
+
+#wpnativeapps-admin #wpna_settings_tabs .ui-state-default a{
+    color: rgba(0,0,0,0.5);
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active, .ui-button:active,
+#wpnativeapps-admin .ui-button.ui-state-active:hover{
+    background: #F1F0F0;
+    color: black;
+}
+
+
+#wpnativeapps-admin #wpna_settings_tabs .ui-state-active  a{
+    color: black;
+}
+
+
+#wpnativeapps-admin #wpna_settings_tabs a.ui-tabs-anchor:focus{
+    box-shadow: none;
+}
+
+@media (max-width:1150px) {
+    #wpnativeapps-admin #wpna_settings_tabs a.ui-tabs-anchor{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    #wpnativeapps-admin #wpna_settings_tabs .ui-tabs-nav{ 
+        padding-left:20px;
+    }
+}
+
+#wpnativeapps-admin #wpna_settings_tabs.ui-tabs .ui-tabs-nav li{
+    border-radius: 0;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+@media (min-width:1150px) and (max-width:1300px) {
+    #wpnativeapps-admin .wpna_settings_page_right {
+        width:35%;
+    }
+    #wpnativeapps-admin .wpna_settings_page_left {
+        width:65%;
+    }
+}
+
+@media (max-width:1000px) {
+    #wpnativeapps-admin .settings-page-parent {
+        flex-direction:column;
+    }
+    #wpnativeapps-admin .wpna_settings_page_left, .wpna_settings_page_right {
+        width:100%;
+    }
+
+    #wpnativeapps-admin .wpna_settings_page_right {
+        border-top:1px solid #CCCCCC;
+    }
+    #wpnativeapps-admin .wpna_settings_page_left {
+        border-right:none;
+    }
+}
+
+#wpnativeapps-admin .mt30 {
+    margin-top:30px;
+}
+
+#wpnativeapps-admin .alignmentOptions {
+    gap:10px;
+}
+
+#wpnativeapps-admin #appPreview {
+    position:relative;
+}
+
+#wpnativeapps-admin .appPreviewiFrame {
+    position: relative;
+    z-index:1;
+}
+
+ /*  LOAD SPINNER FOR AJAX */
+ #wpnativeapps-admin .lds-spinner {
+    color: official;
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+#wpnativeapps-admin .lds-spinner div {
+    transform-origin: 32px 32px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+#wpnativeapps-admin .lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 29px;
+    width: 5px;
+    height: 14px;
+    border-radius: 20%;
+    background: #45678E;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+#wpnativeapps-admin .lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#wpnativeapps-admin .loader{
+    display: none;
+}
+
+#wpnativeapps-admin .lds-spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#wpnativeapps-admin .overlay.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.85);
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+#wpnativeapps-admin #appPreview .overlay.loader {
+    width:320px;
+    height:78vh;
+    left:50%;
+    margin-left:-160px;
+    top:10px;
+    border-radius: 28px;
+}
+
+@media (max-width:1150px) and (min-width:1000px) {
+    #wpnativeapps-admin #appPreview .overlay.loader {
+        width:90%;
+        height:70vh;
+        left:13px;
+        margin-left:unset;
+        top:10px;
+        border-radius: 28px;
+    }   
+}
+
+@media (max-width:1000px) {
+    #wpnativeapps-admin #appPreview .overlay.loader {
+        height:70vh;
+    }   
+}
+
+/*======End of Flow Page Selection Area */
+#wpnativeapps-admin .endOfJourneyPageSelectionWrap{
+    display: flex;
+    flex-direction: column;
+    
+}
+#wpnativeapps-admin .endFlowUrl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* min-height: 100px; */
+    justify-content: space-evenly;
+}
+#wpnativeapps-admin .dropdownWrap{
+    min-width: 180px !important;
+}
+/*
+#wpnativeapps-admin .wpna_multiselect select {
+    // styles reset, including removing the default dropdown arrow
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+  
+    // Stack above custom arrow
+    z-index: 1;
+  
+    // Remove focus outline, will add on alternate element
+    outline: none;
+  }
+  
+  #wpnativeapps-admin .wpna_multiselect .select {
+    display: grid;
+    grid-template-areas: "select";
+    align-items: center;
+    position: relative;
+  
+    select,
+    #wpnativeapps-admin &::after {
+      grid-area: select;
+    }
+  
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+  
+    // Optional styles
+    // remove for transparency
+    background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  
+    // Custom arrow
+    #wpnativeapps-admin &::after {
+      content: "";
+      justify-self: end;
+      width: 0.8em;
+      height: 0.5em;
+      background-color: var(--select-arrow);
+      clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    }
+  }
+  
+  // Interim solution until :focus-within has better support
+  #wpnativeapps-admin .wpna_multiselect select:focus + .focus {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 2px solid var(--select-focus);
+    border-radius: inherit;
+  }
+  
+  #wpnativeapps-admin .wpna_multiselect select[multiple] {
+    padding-right: 0;
+  
+    /*
+     * Safari will not reveal an option
+     * unless the select height has room to 
+     * show all of it
+     * Firefox and Chrome allow showing 
+     * a partial option
+     * /
+    height: 7rem;
+  
+    #wpnativeapps-admin option {
+      white-space: normal;
+  
+      // Only affects Chrome
+      outline-color: var(--select-focus);
+    }
+  }
+  
+  #wpnativeapps-admin .wpna_multiselect .select-disabled {
+    cursor: not-allowed;
+    background-color: #eee;
+    background-image: linear-gradient(to top, #ddd, #eee 33%);
+  }
+  
+  #wpnativeapps-admin .wpna_multiselect label {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  #wpnativeapps-admin .wpna_multiselect .select + label {
+    margin-top: 2rem;
+  }
+  */
+
+/*=============== Live Chat Sticky Section ===========*/
+div#wpna_livechat-sticky {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 360px;
+    max-width: 90%;
+    box-shadow: 0 0px 8px 0 rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: #fff;
+    z-index:2;
+}
+div#wpna_livechat-sticky img{
+    height:32px;
+    width: auto;
+}
+/*=============== Live Chat Sticky Section ENDS ===========*/
+
+
+}

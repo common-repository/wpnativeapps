@@ -1,0 +1,70 @@
+#topNavTabs {
+    padding:30px 0px;
+}
+
+.topNavLogoAndText .wpnaImageUploadPreview, .topNavLogoAndText .w2a-remove, .topNavLogoAndText .w2a-upload  {
+    display:inline-block;
+
+}
+img.topNavPageIcon {
+  width: 20px;
+  vertical-align: middle;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.topNavInput {
+    width:100%;
+}
+
+.topNavPageSettings {
+    display:block;
+    margin:0 auto;
+    width:600px;
+    max-width:100%;
+    padding:30px 0px;
+}
+
+.structureLabel {
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+.settingParent {
+    padding:30px 30px;
+    background:#F0F0F1;
+    border-radius:8px;
+    margin:10px 0px;
+}
+
+.settingSelect label {
+    font-size:16px;
+    font-weight:400;
+}
+
+.settingParent .question:first-of-type {
+    margin-top:0px;
+}
+
+.topNavPageIconItem {
+    padding:20px 15px;
+    background-color:#fff;
+    border:1px solid #E4E4E4;
+    margin-bottom:5px;
+    margin-top:10px;
+    border-radius:12px;
+}
+
+.bottomBarItemWrapTop {
+    gap:10px;
+    width:100%;
+    justify-content:space-evenly;
+}
+
+.bottomBarItemType {
+    width:30%;
+}
+
+.bottomBarItemUrl, .bottomBarItemText {
+    width:70%;
+}

@@ -1,0 +1,58 @@
+#website2AppAnalytics .w2a-logo {
+    width:240px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+
+#website2AppAnalytics {
+    margin:0 auto;
+    display:block;
+    width:800px;
+    max-width:100%;
+    margin-top:50px;
+}
+
+
+#website2AppAnalytics h1 {
+    width:100%;
+    font-size:36px;
+}
+
+#website2AppAnalytics h2 {
+    width:100%;
+    font-size:30px;
+}
+
+#website2AppAnalytics p, #website2AppAnalytics h2 {
+    text-align:center;
+}
+
+#website2AppAnalytics p a {
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+
+#website2AppAnalytics .analytics-row {
+    gap:50px;
+    margin-top:50px;
+    
+}
+
+#website2AppAnalytics .analytics-parent {
+    width:33.33%;
+    padding:30px;
+    background-color:#fff;
+    border:1px solid #cccccc;
+    justify-content: center;
+}
+
+#website2AppAnalytics .long {
+    width:50%;
+}
+
+#website2AppAnalytics .analytics-parent p {
+    margin-top:10px;
+}
+
